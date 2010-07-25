@@ -1,0 +1,1 @@
+gcc server.c -o cshort -lmicrohttpd -ltdb

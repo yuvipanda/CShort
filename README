@@ -1,0 +1,9 @@
+CShort is a personal URL Shortener server written in C. It uses libmicrohttpd for basic HTTP Server functions, tdb as the data store and is usually run behind an nginx reverse proxy providing authentication and logging.
+
+URL Structure
+
+GET /      Explanatory page, some basic marketing
+POST /link Create short link
+GET /<l>   Redirect to long equivalent of <l> if present, 404 if not
+
+It will be released under three clause BSD. And security tested.
